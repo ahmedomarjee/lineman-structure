@@ -1,4 +1,5 @@
 module.exports = (lineman) ->
+  files:
     sass:
       main: [
         "src/css/main.scss"
