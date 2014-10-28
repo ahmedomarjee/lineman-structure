@@ -38,7 +38,7 @@ Lineman uses a very particular directory structure. It looks like this:
     ├── img                 # <-- 3rd-party images (are merged into the 'img' folder inside of generated & dist)
     ├── css                 # <-- 3rd-party CSS
     └── static              # <-- any 3rd-party static files that need to be placed in a path relative to `/`
-
+``` 
 
 This plugin will modify the directory structure as follows:
 
@@ -73,7 +73,7 @@ This plugin will modify the directory structure as follows:
     ├── js    	    	      	# <-- 3rd-party Javascript
     ├── static  	            # <-- any 3rd-party static files that need to be placed in a path relative to `/`
     └── webfonts    	        # <-- any 3rd-party fonts
-
+``` 
 
 ## Notes
 
