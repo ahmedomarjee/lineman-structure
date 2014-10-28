@@ -3,28 +3,28 @@ module.exports = (lineman) ->
     coffee:
       app: [
         ###
-        Main module
+        # Main module
         ###
         "src/app/app.module.coffee"
         
         ###
-        All other modules
+        # All other modules
         ###
         "src/app/**/*.module.coffee"
         
         ###
-        All other application javascript
+        # All other application javascript
         ###
         "src/app/**/*.coffee"
       ]
       spec: ["test/unit/**/*.coffee"]
       specHelpers: [
         ###
-        Add an entry for each 3rd party bower managed vendor dependency here
+        # Add an entry for each 3rd party bower managed vendor dependency here
         ###
         
         ###
-        Pick up all other 3rd party dependencies
+        # Pick up all other 3rd party dependencies
         ###
         "test/vendor/**/*.coffee"
       ]
